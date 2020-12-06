@@ -1,3 +1,6 @@
+.navigation {
+    font-family: monospace;
+}
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -10,11 +13,11 @@
     margin-right: auto;
 }
 nav {
-    width: 70%;
+    width: 100%;
     padding: 1%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 ul {
     list-style-type: none;
@@ -28,27 +31,32 @@ li {
     float: left;
     padding: 15px;
 }
-.heroImg {
-    height: 600px;
+#myPicture2 {
+    width: 10%;
+    height: auto;
     padding: 25px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    box-sizing: content-box;
 }
 .content {
     width: 500px;
     margin: 0 auto;
 }
-footer {
+.footer {
     background-color: #373738;
     padding: center;
     height: 100px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-footer ul {
+.footer li {
     display: inline-block;
     vertical-align: top;
     list-style-type: none;
@@ -57,8 +65,4 @@ footer ul {
     overflow: hidden;
     width: 50%;
     margin-left: auto;
-}
-img {
-    width: 40%;
-    height: auto;
 }
